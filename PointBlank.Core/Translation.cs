@@ -9,7 +9,7 @@ namespace PointBlank.Core
 
     public static void Load()
     {
-      foreach (string readAllLine in File.ReadAllLines("Config/Translate/Strings.ini"))
+      foreach (string readAllLine in File.ReadAllLines("Config/Strings.ini"))
       {
         int length = readAllLine.IndexOf("=");
         if (length >= 0)
